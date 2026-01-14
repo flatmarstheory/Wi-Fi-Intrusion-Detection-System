@@ -6,7 +6,7 @@ from machine import Pin
 
 # ---------------- CONFIG ----------------
 WIFI_SSID = "Sweet Home"
-WIFI_PASS = "jashan#2026"
+WIFI_PASS = "**********"
 SCAN_INTERVAL = 5
 RSSI_SPIKE = 20
 
@@ -164,4 +164,5 @@ while True:
         cl.send(HTML)
 
     cl.close()
+
 
